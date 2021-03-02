@@ -1,5 +1,5 @@
 DROP TABLE assignments;
-DROP TABLE assignment_submission;
+DROP TABLE assignment_submissions;
 
 CREATE TABLE assignments (
   id SERIAL PRIMARY KEY NOT NULL,
@@ -17,3 +17,4 @@ CREATE TABLE assignment_submissions (
   duration INTEGER,
   submission_date DATE
 );
+
